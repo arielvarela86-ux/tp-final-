@@ -1,0 +1,24 @@
+[
+    {
+        "tipo": "PanelSolar",
+        "nombre": "EcoPanel Max",
+        "precio": 349.5,
+        "stock": 25,
+        "potencia_w": 400,
+        "eficiencia": 0.22
+    },
+    {
+        "tipo": "PanelSolar",
+        "nombre": "SolarLite Pro",
+        "precio": 220.0,
+        "stock": 40,
+        "potencia_w": 300,
+        "eficiencia": 0.19
+    },
+    {
+        "tipo": "DispositivoGenerico",
+        "nombre": "Kit Medidor de Energía",
+        "precio": 89.99,
+        "stock": 15
+    }
+]
