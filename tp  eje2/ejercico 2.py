@@ -72,9 +72,9 @@ class GestorInventario:
             with open(ruta_archivo, 'w', encoding='utf-8') as archivo:
                 json.dump(datos_serializables, archivo, indent=4, ensure_ascii=False)
                 
-            print(f"💾 Éxito: Catálogo exportado correctamente en '{ruta_archivo}'.")
+            print(f"  Éxito: Catálogo exportado correctamente en '{ruta_archivo}'.")
         except IOError as e:
-            print(f"❌ Error de E/S al intentar guardar el archivo: {e}")
+            print(f"  Error de E/S al intentar guardar el archivo: {e}")
 
 
 
@@ -89,7 +89,7 @@ if __name__ == "__main__":
         print("Intentando instanciar un Panel Solar con stock negativo (-10)...")
         PanelSolar("SolarMaster 300", 299.99, -10, 350, 0.20)
     except StockInvalidoError as e:
-        print(f"⚠️ [Excepción Capturada Correctamente]: {e}")
+        print(f" [Excepción Capturada Correctamente]: {e}")
 
     
     print("\n--- 2. Creación de Productos Válidos y Fichas Técnicas (Polimorfismo) ---")
